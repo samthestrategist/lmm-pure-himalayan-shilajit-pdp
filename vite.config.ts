@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
-  base: "/lmm-pdp-golden-template/",
+  base: "/lmm-pure-himalayan-shilajit-pdp/",
   plugins: [react()],
   resolve: {
     alias: {
