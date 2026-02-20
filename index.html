@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centella Restore Cream™ — Little Miss Mineral | Centelloid Renewal Cascade™</title>
+    <meta name="description" content="Centella Restore Cream™ uses pharmaceutical-grade TECA to trigger the Centelloid Renewal Cascade™ — the three-phase biological process that restores perimenopausal skin from within. 60-Day Guarantee." />
+    <meta property="og:title" content="I Still Feel 38 Inside. I Just Want My Face to Match. — Centella Restore Cream™" />
+    <meta property="og:description" content="The Centelloid Renewal Cascade™ — fibroblast reactivation, Type I collagen synthesis, and barrier restoration in one pharmaceutical-grade formula. 60-Day Money-Back Guarantee." />
+    <meta property="og:type" content="product" />
+    <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0462/8591/4267/files/crc-hero-front.png?v=1771408030" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+(function() {
+  var urlParams = new URLSearchParams(window.location.search);
+  var wtClickId = urlParams.get('wt_click_id');
+  if (wtClickId) {
+    var decorateLinks = function() {
+      var links = document.querySelectorAll('a[href*="orthocliner.myshopify.com"]');
+      links.forEach(function(link) {
+        try {
+          var url = new URL(link.href);
+          if (!url.searchParams.has('wt_click_id')) {
+            url.searchParams.set('wt_click_id', wtClickId);
+            link.href = url.toString();
+          }
+        } catch(err) {}
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', decorateLinks);
+    } else {
+      decorateLinks();
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+      var observer = new MutationObserver(function() { decorateLinks(); });
+      observer.observe(document.body, { childList: true, subtree: true });
+    });
+  }
+  var loadWeTracked = function() {
+    setTimeout(function() {
+      var s1 = document.createElement('script');
+      s1.src = 'https://pixel.wetracked.io/orthocliner.myshopify.com/events.js';
+      s1.async = true;
+      document.head.appendChild(s1);
+      var s2 = document.createElement('script');
+      s2.src = 'https://pixel.wetracked.io/ppt.js';
+      s2.async = true;
+      document.head.appendChild(s2);
+    }, 300);
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadWeTracked);
+  } else {
+    loadWeTracked();
+  }
+})();
+    </script>
+  </body>
+</html>
