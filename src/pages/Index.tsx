@@ -239,7 +239,7 @@ const Index = () => {
             {PDP_MECHANISM_HEADLINE}
           </h2>
           <p style={{ textAlign: "center", fontSize: "18px", color: COLORS.body, maxWidth: "600px", margin: "0 auto 60px", lineHeight: 1.7 }}>
-            Three Phases. One Cream. The Restoration Your Skin Has Been Waiting For.
+            Simple dosing. Maximum absorption. The cellular nourishment your body has been waiting for.
           </p>
           <p style={{ textAlign: "center", fontSize: "16px", color: COLORS.body, maxWidth: "640px", margin: "0 auto 60px", lineHeight: 1.7 }}>
             {PDP_MECHANISM_BODY}
@@ -347,7 +347,7 @@ const Index = () => {
               </div>
               <p style={{ fontSize: "13px", color: COLORS.accent, marginBottom: "4px" }}>{PDP_BUNDLE_2_PER_UNIT}</p>
               <p style={{ fontSize: "14px", lineHeight: 1.7, color: COLORS.body, margin: "16px 0 24px" }}>
-                Two jars (90-120 day supply). Most women notice real structural change at weeks 6-8 — this gives you the full {MECHANISM_NAME} protocol with room to feel the results settle into your skin.
+                Two jars (90-120 day supply). Most women notice sustained energy within 2-3 weeks — this gives you the full {MECHANISM_NAME} protocol with time for results to compound.
               </p>
               <div style={{ fontSize: "14px", color: COLORS.green, fontWeight: 600, marginBottom: "24px" }}>
                 <div>✓ FREE: Digital "{COPY_PRODUCT_NAME} Protocol" Guide ($29 value)</div>
@@ -367,7 +367,7 @@ const Index = () => {
               </div>
               <p style={{ fontSize: "13px", color: COLORS.accent, marginBottom: "4px" }}>{PDP_BUNDLE_3_PER_UNIT}</p>
               <p style={{ fontSize: "14px", lineHeight: 1.7, color: COLORS.body, margin: "16px 0 24px" }}>
-                Three jars (135-180 day supply). The {MECHANISM_NAME} works deepest at the 8-12 week mark — 3 jars gives you the complete protocol at the lowest price-per-jar.
+                Three jars (135-180 day supply). Mineral absorption compounds over time. 3 jars gives you the complete 90-day protocol at the lowest price-per-jar.
               </p>
               <div style={{ fontSize: "14px", color: COLORS.green, fontWeight: 600, marginBottom: "24px" }}>
                 <div>✓ FREE: Digital "{COPY_PRODUCT_NAME} Protocol" Guide ($29 value)</div>
@@ -424,7 +424,7 @@ const Index = () => {
 
           <div style={{ background: COLORS.bgDark, borderRadius: "16px", padding: "20px 24px", fontSize: "14px", color: COLORS.accent, lineHeight: 1.7 }}>
             <strong>No added fragrance. No synthetic dyes. No parabens. No common sensitizers.</strong>
-            <br />Because perimenopausal skin is reactive enough without asking it to tolerate anything it doesn't need.
+            <br />Pure, tested, and sourced with integrity.
           </div>
         </section>
 
@@ -456,13 +456,13 @@ const Index = () => {
           <div style={{ maxWidth: "600px", margin: "0 auto" }}>
             <img src={CDN_AD_OVERLAY} alt={COPY_PRODUCT_NAME} style={{ maxWidth: "200px", marginBottom: "32px", borderRadius: "16px" }} />
             <p style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 300, fontSize: "20px", lineHeight: 1.7, marginBottom: "8px", opacity: 0.9 }}>
-              Your skin has been asking for the right mechanism.
+              Your cells have been asking for the right minerals.
             </p>
             <h2 style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 800, fontSize: "clamp(24px, 4vw, 36px)", marginBottom: "24px", lineHeight: 1.2 }}>
               {PDP_FINAL_CTA_BUTTON}
             </h2>
             <p style={{ opacity: 0.85, marginBottom: "32px", fontSize: "16px", lineHeight: 1.7 }}>
-              Give your skin {GUARANTEE} days to show you what it can do when it gets what it actually needs.
+              Give your body 90 days to show you what it can do when it gets the minerals it actually needs.
             </p>
             <div style={{ marginBottom: "24px" }}>
               <DiscountBadge />
